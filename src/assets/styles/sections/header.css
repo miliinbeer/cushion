@@ -1,0 +1,14 @@
+.header {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  background: #f19d2f;
+}
+.header__logo {
+  padding: 19px 0;
+  background: #ffd1ac;
+}
+.header__image {
+  margin: 0 auto;
+}

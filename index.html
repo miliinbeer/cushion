@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/assets/styles/global.css" />
+    <link rel="icon" href="./src/assets/images/favicon.svg" />
+    <link rel="apple-touch-icon" href="./src/assets/images/favicon.svg" />
+    <title>Cushion</title>
+  </head>
+  <body>
+    <header class="container header">
+      <p>🇿🇦 SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA 🇿🇦</p>
+      <div class="header__logo">
+        <img
+          class="header__image"
+          src="./src/assets/images/logo.svg"
+          width="auto"
+          height="auto"
+          alt="logo"
+        />
+      </div>
+    </header>
+    <main>
+      <section class="container banner">
+        <div class="banner__items">
+          <div class="banner__timer">
+            <p>Limited offer</p>
+            <div class="banner__time" id="timer"></div>
+          </div>
+          <div class="banner__line"></div>
+          <div class="banner__price" id="price"></div>
+        </div>
+      </section>
+      <section class="container products">
+        <div class="products__reviews">
+          <p class="products__review">Excellent 4.8/5</p>
+          <a href="https://www.trustpilot.com/">
+            <img
+              src="./src/assets/images/trustpilot.svg"
+              width="auto"
+              height="auto"
+              alt="trustpilot"
+          /></a>
+          <p class="products__review">best selling</p>
+        </div>
+        <p class="products__title">Orthopedic Slippers</p>
+        <div class="products__images"></div>
+        <div class="products__previews"></div>
+        <div class="products__info">
+          <p class="products__description">
+            Fast Delivery: <span>2-4 days from SA 🇿🇦</span>
+          </p>
+          <p class="products__description">
+            In Stock: <span>Shipping from Johannesburg 🇿🇦</span>
+          </p>
+          <a class="products__grade" href="/">
+            <div class="products__stars">
+              <img width="14px" height="13px" src="./src/assets/images/star.svg" alt="star" />
+              <img width="14px" height="13px" src="./src/assets/images/star.svg" alt="star" />
+              <img width="14px" height="13px" src="./src/assets/images/star.svg" alt="star" />
+              <img width="14px" height="13px" src="./src/assets/images/star.svg" alt="star" />
+              <img width="14px" height="13px" src="./src/assets/images/star.svg" alt="star" />
+              <p><span>(10)</span></p>
+            </div></a
+          >
+        </div>
+        <div class="products__items">
+          <div class="products__item">
+            <label class="products__label" for="select-color">Color</label>
+            <img
+              class="products__arrow"
+              src="./src/assets/images/arrow.svg"
+              alt="arrow"
+            />
+            <select
+              class="products__select"
+              name="color"
+              id="select-color"
+            ></select>
+          </div>
+          <div class="products__item">
+            <label class="products__label" for="select-size">Size</label>
+            <img
+              class="products__arrow"
+              src="./src/assets/images/arrow.svg"
+              alt="arrow"
+            />
+            <select
+              class="products__select"
+              name="size"
+              id="select-size"
+            ></select>
+          </div>
+        </div>
+        <a class="products__button button" href="https://www.youtube.com/"
+          >Buy now</a
+        >
+      </section>
+    </main>
+    <script src="./dist/app.js" type="module"></script>
+  </body>
+</html>

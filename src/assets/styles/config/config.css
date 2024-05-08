@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "GothamProMedium";
+  src: url("../../fonts/GothamPro-Medium.ttf");
+}
+@font-face {
+  font-family: "GothamPro";
+  src: url("../../fonts/GothamPro.ttf");
+}
+body {
+  color: #2c2b31;
+  font-family: "GothamProMedium", sans-serif;
+  font-weight: 700;
+  background: #f0f0f0;
+}
